@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -9,6 +10,9 @@ export class AppComponent{
   
 
 
+constructor(public router: Router){ // mit dem Konstruktor kann man oben auch importieren
+
+}
 
 
 

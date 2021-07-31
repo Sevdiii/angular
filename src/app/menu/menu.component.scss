@@ -12,20 +12,35 @@ header {
 }
 
 img {
+    margin-top: 35px;
     width: 100px;
     height: 100px;
     object-fit: contain;
+    cursor: pointer;
 }
 
-.links {
+a {
+    color: white;
+    margin-left: 50px;
+    list-style: none;
+    text-decoration: none;
+    font-size: 20px;
+    &:hover {
+        color: rgba(255, 255, 255, 0.7);
+    }
+}
+
+.darkLinks {
     a {
-        color: white;
-        margin-left: 50px;
-        list-style: none;
-        text-decoration: none;
-        font-size: 20px;
+        color: black;
         &:hover {
-            color: rgba(255, 255, 255, 0.7);
+            color: rgba(0, 0, 0, 0.8);
         }
     }
+}
+
+.headerDark {
+    top: 0;
+    background-color: white;
+    box-shadow: 0px 1px 3px 0 rgba(0, 0, 0, 0.2);
 }
